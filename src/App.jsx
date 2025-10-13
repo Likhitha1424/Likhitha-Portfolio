@@ -8,12 +8,13 @@ import Projects from "./Components/Projects";
 import Services from "./Components/Services";
 import Contact from "./Components/Contact";
 import Experience from "./Components/Experience";
+import PurpleRain from "./assets/Purple Rain.gif";
 
 function App() {
   return (
   <div
       className="relative min-h-screen overflow-x-hidden bg-transparent text-white bg-cover bg-center bg-no-repeat" // <-- Add it here
-      style={{ backgroundImage: `url(${img})` }}
+      style={{ backgroundImage: `url(${PurpleRain})` }}
     >
   {/* Overlay for dark blur effect */}
   <div className="absolute inset-0 bg-transparent/60 backdrop-blur-sm"></div>
