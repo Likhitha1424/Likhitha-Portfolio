@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* 
+.glow-text {
+  text-shadow: 0 0 5px #9f7aea, 0 0 10px #9f7aea, 0 0 20px #9f7aea;
+}
+
+@keyframes glowText {
+  0%, 100% {
+    text-shadow: 0 0 5px #9f7aea, 0 0 10px #9f7aea, 0 0 20px #9f7aea;
+  }
+  50% {
+    text-shadow: 0 0 10px #d8b4fe, 0 0 20px #d8b4fe, 0 0 30px #d8b4fe;
+  }
+}
+
+/* .animate-glow-text {
+  animation: glowText 2s infinite;
+}
+
+@keyframes pulseNeon {
+  0%, 100% {
+    box-shadow: 0 0 10px #9f7aea, 0 0 20px #9f7aea, 0 0 30px #9f7aea;
+  }
+  50% {
+    box-shadow: 0 0 20px #d8b4fe, 0 0 30px #d8b4fe, 0 0 40px #d8b4fe;
+  }
+}
+
+.animate-pulse-neon {
+  animation: pulseNeon 2s infinite;
+} */ 

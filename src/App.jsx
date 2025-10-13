@@ -12,11 +12,11 @@ import Experience from "./Components/Experience";
 function App() {
   return (
    <div
-  className="relative min-h-screen bg-black text-white bg-cover bg-center bg-no-repeat"
+  className="relative min-h-screen bg-transparent text-white bg-cover bg-center bg-no-repeat"
   style={{ backgroundImage: `url(${img})` }}
 >
   {/* Overlay for dark blur effect */}
-  <div className="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
+  <div className="absolute inset-0 bg-transparent/60 backdrop-blur-sm"></div>
 
   {/* Main content sits above the overlay */}
   <div className="relative z-10">
